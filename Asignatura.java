@@ -13,11 +13,11 @@ public class Asignatura {
 
     public void mostrarAlumnos() {
         for (Alumno a : lista) {
-            System.out.println("Nombre: " + a.getNombre() +
-                               ", Nota1: " + a.getNota1() +
-                               ", Nota2: " + a.getNota2() +
-                               ", Nota3: " + a.getNota3() +
-                               ", Promedio: " + a.promedio());
+            System.out.println(Textos.NOMBRE + a.getNombre()
+                    + Textos.NOTA1 + a.getNota1()
+                    + Textos.NOTA2 + a.getNota2()
+                    + Textos.NOTA3 + a.getNota3()
+                    + Textos.PROMEDIO + a.promedio());
         }
     }
 

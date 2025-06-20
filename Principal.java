@@ -7,9 +7,9 @@ public class Principal {
         asignatura.altaAlumno(new Alumno("Ana", 6, 9, 8));
         asignatura.altaAlumno(new Alumno("Luis", 5, 7, 6));
 
-        System.out.println("Listado de alumnos:");
+        System.out.println(Textos.LISTADO_ALUMNOS);
         asignatura.mostrarAlumnos();
 
-        System.out.println("Nota media de la asignatura: " + asignatura.notaMedia());
+        System.out.println(Textos.NOTA_MEDIA + asignatura.notaMedia());
     }
 }

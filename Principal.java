@@ -1,4 +1,12 @@
+/**
+ * Clase principal de la aplicación.
+ * Crea una asignatura, da de alta alumnos y muestra el listado y la nota media.
+ */
 public class Principal {
+    /**
+     * Método principal que ejecuta la aplicación.
+     * @param args Argumentos de la línea de comandos (no se usan)
+     */
     public static void main(String[] args) {
         Asignatura asignatura = new Asignatura();
 
